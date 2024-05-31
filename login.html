@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home - Stem Cell Therapy</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="AM Dellosa">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Stem Cell Therapy: Using stem cells to treat diseases and injuries.">  
+    </head>
+    <body>
+        <!-- Logo and text-->
+        <header>
+            <a href="index.html">
+                <img class="logo" src="content/logo.png">
+            </a>
+        </header>
+        <!-- Navigation bar to help the user to navigate around the website. -->
+        <nav>
+            <ul>
+                <!-- Navigation Buttons -->
+                <li class="navButton"> 
+                    <a class="currentBtn" href="index.html">Home</a> <!-- currentBtn changes the color of the current button page to blue. -->
+                </li>
+                <li class="navButton">
+                    <a class="btn" href="about.html">About</a>
+                </li>
+                <li class="navButton">
+                    <a class="btn" href="risks.html">Risks</a>
+                </li>
+                <li class="navButton">
+                    <a class="btn" href="login.html">Login</a>
+                </li>
+                <li class="navButton">
+                    <a class="btn" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </body>
+    <style>
+        /* Importing fonts */
+        @import url(https://db.onlinewebfonts.com/c/0a086e32e41c5e5960b26626757f07f3?family=Apercu+Regular);
+        @import url(https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
+        @import url('https://fonts.googleapis.com/css?family=Rubik:500');
+        @font-face {
+            font-family: "Apercu Regular";
+            src: url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.eot");
+            src: url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.eot?#iefix")format("embedded-opentype"),
+            url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.woff2")format("woff2"),
+            url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.woff")format("woff"),
+            url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.ttf")format("truetype"),
+            url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.svg#Apercu Regular")format("svg");
+        }
+        @font-face {
+            font-family: "Circular Std Bold";
+            src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot");
+            src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix")format("embedded-opentype"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2")format("woff2"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff")format("woff"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf")format("truetype"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold")format("svg");
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .navButton {
+            font-family: Poppins, Open sans, Arial, sans-serif;
+            position: relative;
+            list-style-type:none;
+            float: left;
+            cursor: pointer;
+            font-size: 1.1vw;
+            top: 4vh;
+            left: 13vw;
+            transition: transform 0.2s;
+            margin-right: 1vw;
+        }       
+        .btn:link, .btn:visited, .btn:hover, .btn:active {
+            color: black;
+            text-decoration: none;
+        }
+        /* Changes the color of the current page button to blue */
+        .currentBtn:link, .currentBtn:visited, .currentBtn:hover, .currentBtn:active {
+            color: #38b6ff;
+            text-decoration: none;
+        }
+        /* Navbar css */
+        nav {
+            width: 100vw;
+            height: 10vh;
+            background-color: white;
+            overflow: hidden;
+        }
+        .logo {
+            height: 8vh;
+            position: absolute;
+            top: 1vh;
+            left: 0.5vw;
+        }
+    </style>
+</html>

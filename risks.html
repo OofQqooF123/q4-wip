@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home - Stem Cell Therapy</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="AM Dellosa">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Stem Cell Therapy: Using stem cells to treat diseases and injuries.">  
+    </head>
+    <body onload="animate()">
+        <!-- Logo and text-->
+        <header>
+            <a href="index.html">
+                <img class="logo" src="content/logo.png">
+            </a>
+        </header>
+        <!-- Navigation bar to help the user to navigate around the website. -->
+        <nav>
+            <ul>
+                <!-- Navigation Buttons -->
+                <li class="navButton"> 
+                    <a class="btn" href="index.html">Home</a> 
+                </li>
+                <li class="navButton">
+                    <a class="btn" href="about.html">About</a>
+                </li>
+                <li class="navButton">
+                    <a class="currentBtn" href="risks.html">Risks</a> <!-- currentBtn changes the color of the current button page to blue. -->
+                </li>
+                <li class="navButton">
+                    <a class="btn" href="resources.html">Login</a>
+                </li>
+                <li class="navButton">
+                    <a class="btn" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <!--Topic 1 -->
+            <div class="topic1">
+                 <!-- Clickable image at the side that opens its source when clicked -->
+                <a href="https://unsplash.com/photos/a-woman-holds-her-hands-over-her-face-i-ePv9Dxg7U" target="_blank">
+                    <img class="img1" src="content/img1b.jpg">
+                </a>
+                <!-- Header of the topic  -->
+                <p class="header1">Stem Cell Therapy Side Effects</p>
+                <!-- Body of the topic -->
+                <p class="body1">
+                    Common short-term side effects of stem cell therapy include fatigue, headache, chills, nausea, and low-grade fever. Side effects vary; not every 
+                    patient will experience side effects. These side effects are generally mild and temporary. Additionally, the incidence of side effects may vary depending on 
+                    the type of stem cells used, the dose, and the method of administration.
+                </p>
+                <!-- Source -->
+                <p class="src">Source:</p>
+                <a class="fixLink" id="src1b" target=”_blank” href="https://shorturl.at/Ay96l">https://shorturl.at/Ay96l</a>
+            </div>
+            <!--Topic 2 -->
+            <div class="topic2">
+                <!-- Clickable image at the side that opens its source when clicked -->
+                <a href="https://unsplash.com/photos/white-ceramic-sink-near-white-ceramic-sink-e7MJLM5VGjY" target="_blank">
+                    <img class="img2" src="content/img2b.jpg">
+                </a>
+                <!-- Header of the topic  -->
+                <p class="header2">Concerns for SCTs at unregulated clinics</p>
+                <!-- Body of the topic -->
+                <p class="body2">
+                    Lack of oversight: Unregulated clinics may not have the same level of oversight and quality control as regulated clinics, which can lead to unsafe practices 
+                    and treatments. Unskilled staff: Unregulated clinics may not have adequately trained staff who can safely and effectively administer stem cell treatments. 
+                    Lack of follow-up care: Some unregulated clinics may not provide follow-up care or monitoring to ensure patients recover safely from the treatments.
+                </p>
+                <!-- Source -->
+                <p class="src">Source:</p>
+                <a class="fixLink" id="src2b" target=”_blank” href="https://shorturl.at/Ay96l">https://shorturl.at/Ay96l</a>
+            </div>
+            <!--Topic 3 -->
+            <div class="topic3">
+                <!-- Clickable image at the side that opens its source when clicked -->
+                <a href="https://unsplash.com/photos/brown-eggs-in-a-box-LUYD2b7MNrg" target="_blank">
+                    <img class="img3" src="content/img3b.jpg">
+                </a>
+                <!-- Header of the topic  -->
+                <p class="header3">Should I be worried?</p>
+                <!-- Body of the topic -->
+                <p class="body3">
+                    It's worth mentioning that despite the possible side effects, stem cell therapy is a safe and effective treatment option for a wide range of conditions, 
+                    including but not limited to spinal cord injuries, heart disease, autoimmune conditions, degenerative neurological disorders, and diabetes.
+                </p>
+                <!-- Source -->
+                <p class="src">Source:</p>
+                <a class="fixLink" id="src3b" target=”_blank” href="https://shorturl.at/Ay96l">https://shorturl.at/Ay96l</a>
+        </section>
+    </body>
+    <style>
+        /* Importing fonts */
+        @import url(https://db.onlinewebfonts.com/c/0a086e32e41c5e5960b26626757f07f3?family=Apercu+Regular);
+        @import url(https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
+        @import url('https://fonts.googleapis.com/css?family=Rubik:500');
+        @font-face {
+            font-family: "Apercu Regular";
+            src: url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.eot");
+            src: url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.eot?#iefix")format("embedded-opentype"),
+            url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.woff2")format("woff2"),
+            url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.woff")format("woff"),
+            url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.ttf")format("truetype"),
+            url("https://db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.svg#Apercu Regular")format("svg");
+        }
+        @font-face {
+            font-family: "Circular Std Bold";
+            src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot");
+            src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix")format("embedded-opentype"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2")format("woff2"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff")format("woff"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf")format("truetype"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold")format("svg");
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* Topic div CSS */
+        .topic1{
+            display: inline-block;
+            width: 33.33vw;
+            height: 90vh;
+            position: fixed;
+            background-color: #38b6ff;
+            align-items: center;
+            opacity: 0;
+            animation: opacity 1s linear forwards;
+        }
+        .topic2{
+            display: inline-block;
+            width: 33.33vw;
+            height: 90vh;
+            position: fixed;
+            left: 33.33vw;
+            background-color: #80cffd;
+            opacity: 0;
+            animation: opacity 1s linear forwards;
+        }
+        .topic3{
+            display: inline-block;
+            width: 33.33vw;
+            height: 90vh;
+            position: fixed;
+            left: 66.66vw;
+            background-color: #38b6ff;
+            opacity: 0;
+            animation: opacity 1s linear forwards;
+        }
+        /* Img CSS */
+        .img1{
+            width: 20vw;
+            height: 26vh;
+            border: 0.5vh solid rgb(255, 255, 255);
+            position: fixed;
+            left: 6.5vw;
+            border-radius: 2vw;
+            margin-right: 5vw;
+            margin-top: 6vh;
+            box-shadow: 2vh 2vh 1vh rgba(43, 143, 201, 0.6);
+            transition: transform 1s ease;
+        }
+        .img2{
+            width: 20vw;
+            height: 26vh;
+            border: 0.5vh solid rgb(255, 255, 255);
+            position: fixed;
+            left: 39.88vw;
+            border-radius: 2vw;
+            margin-right: 5vw;
+            margin-top: 6vh;
+            box-shadow: 2vh 2vh 1vh rgba(43, 143, 201, 0.6);
+            transition: transform 1s ease;
+        }
+        .img3{
+            width: 20vw;
+            height: 26vh;
+            border: 0.5vh solid rgb(255, 255, 255);
+            position: fixed;
+            left: 73.21vw;
+            border-radius: 2vw;
+            margin-right: 5vw;
+            margin-top: 6vh;
+            box-shadow: 2vh 2vh 1vh rgba(43, 143, 201, 0.6);
+            transition: transform 1s ease;
+        }
+        /* Header CSS */
+        .header1{
+            padding-top: 37vh;
+            font-size: 1.5vw;
+            font-family: "Rubik", sans-serif;
+            text-align: center;
+        }
+        .header2{
+            padding-top: 37vh;
+            font-size: 1.5vw;
+            font-family: "Rubik", sans-serif;
+            text-align: center;
+        }
+        .header3{
+            padding-top: 37vh;
+            font-size: 1.5vw;
+            font-family: "Rubik", sans-serif;
+            text-align: center;
+        }
+        /* Body CSS */
+        .body1{
+            padding-top: 5vh;
+            font-size: 1.25vw;
+            font-family: "Rubik", sans-serif;
+            width: 25vw;
+            color: white;
+            text-align: center;
+            margin-left: 4.17vw;
+        }
+        .body2{
+            padding-top: 2vh;
+            font-size: 1.25vw;
+            font-family: "Rubik", sans-serif;
+            width: 25vw;
+            color: white;
+            text-align: center;
+            margin-left: 4.17vw;
+        }
+        .body3{
+            padding-top: 8vh;
+            font-size: 1.25vw;
+            font-family: "Rubik", sans-serif;
+            width: 25vw;
+            color: white;
+            text-align: center;
+            margin-left: 4.17vw;
+        
+        /* Source CSS */}
+        .src{
+            margin-left: 6.75vw;
+            bottom: 1vh;
+            padding-top: 2vh;
+            font-size: 1.25vw;
+            bottom: 8vh;
+            position: fixed;
+            font-family: "Rubik", sans-serif;
+            width: 20vw;
+            color: black;
+            text-align: center;
+        }
+        /* Source link CSS */
+        .fixLink {
+            margin-left: 6.5vw;
+            bottom: 5vh;
+            position: fixed;
+            font-size: 1.25vw;
+            font-family: "Rubik", sans-serif;
+            width: 20vw;
+            color: black;
+            text-align: center;
+        }
+        /* Changes the default states of certain links */
+        .fixLink:link, .fixLink:visited, .fixLink:hover, .fixLink:active, .src2b:link, .src2b:visited, .src2b:hover, .src2b:active{
+            color: black;
+        }
+        .navButton {
+            font-family: Poppins, Open sans, Arial, sans-serif;
+            position: relative;
+            list-style-type:none;
+            float: left;
+            cursor: pointer;
+            font-size: 1.1vw;
+            top: 4vh;
+            left: 13vw;
+            transition: transform 0.2s;
+            margin-right: 1vw;
+        }       
+        .btn:link, .btn:visited, .btn:hover, .btn:active {
+            color: black;
+            text-decoration: none;
+        }
+        /* Changes the color of the current page button to blue */
+        .currentBtn:link, .currentBtn:visited, .currentBtn:hover, .currentBtn:active {
+            color: #38b6ff;
+            text-decoration: none;
+        }
+        /* Navbar css */
+        nav {
+            width: 100vw;
+            height: 10vh;
+            background-color: white;
+            top: 0;
+        }
+        .logo {
+            height: 8vh;
+            position: absolute;
+            top: 1vh;
+            left: 0.5vw;
+        }
+        /* Opacity animation when page loads */
+        @keyframes opacity{
+            100%{
+                opacity: 1;
+            }
+        }
+        /* Image scale animation when hovered over */
+        .img1:hover, .img2:hover, .img3:hover{
+            transform: scale(1.05);
+        }
+    </style>
+</html>
